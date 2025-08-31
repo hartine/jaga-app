@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaga App - Medical Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Welcome to Jaga</h1>
+
+       <div class="buttons">
+    <button class="toggle-btn" onclick="showLogin()">Login</button>
+    <button class="toggle-btn" onclick="showRegister()">Register</button>
+    <button class="sos-btn" onclick="publicSOS()">SOS</button>
+</div>
+
+
+        <!-- Login Form -->
+        <div id="login-form" class="form">
+            <h2>Login</h2>
+            <input type="text" placeholder="IC Number" id="login-ic"><br>
+            <input type="password" placeholder="Password" id="login-password"><br>
+            <button class="submit-btn" onclick="login()">Login</button>
+        </div>
+
+        <!-- Register Form -->
+        <div id="register-form" class="form">
+            <h2>Register</h2>
+            <input type="text" placeholder="Full Name" id="register-name"><br>
+            <input type="text" placeholder="IC Number" id="register-ic"><br>
+            <input type="email" placeholder="Email" id="register-email"><br>
+            <input type="text" placeholder="Phone Number" id="register-phone"><br>
+            <input type="date" placeholder="Date of Birth" id="register-dob"><br>
+            
+            <select id="register-gender">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select><br>
+
+            <input type="text" placeholder="Address" id="register-address"><br>
+            <input type="password" placeholder="Password" id="register-password"><br>
+            <button class="submit-btn" onclick="register()">Register</button>
+        </div>
+
+        <!-- Dashboard -->
+        <div id="dashboard" class="dashboard"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
