@@ -69,16 +69,20 @@ jaga-app/
 1) Clone the repo
    
 git clone https://github.com/hartine/jaga-app.git
+
 cd jaga-app
 
 2) Backend Setup
    
 cd backend
+
 npm install
+
 npm start
 
 3) Frontend Setup
 
 cd frontend
+
 open index.html
 
