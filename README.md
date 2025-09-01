@@ -52,6 +52,12 @@ jaga-app/
 │-- README.md # Project documentation
 
 
+video link :
+https://youtu.be/VOLb527ozZ0?si=Mz0NXC8kb-main3x
+
+
+screenshots: 
+
 <img width="817" height="755" alt="Screenshot 2025-09-01 045048" src="https://github.com/user-attachments/assets/cf123605-4763-404a-baa6-04193cb469d7" />
 <img width="886" height="930" alt="Screenshot 2025-09-01 180800" src="https://github.com/user-attachments/assets/458e7954-b9a3-451e-8921-440f1ac30d91" />
 <img width="1918" height="1078" alt="Screenshot 2025-09-01 034552" src="https://github.com/user-attachments/assets/6b399ca9-623b-4edd-b8bc-0ed0e637b976" />
